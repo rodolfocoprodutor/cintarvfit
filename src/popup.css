@@ -1,0 +1,53 @@
+.bg-kit-escolha {
+	background-color: #FFC000;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+	display: none;
+	border-radius: 0 0 15px 15px;
+	-moz-border-radius: 0 0 15px 15px;
+	-webkit-border-radius: 0 0 15px 15px;
+}
+.escolher-tamanho {
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+}
+.escolher-tamanho .esc-tamanho {
+	display: inline-block;
+	width: 45px;
+	height: 32px;
+	padding: 5px;
+	font-size: 18px;
+	text-align: center;
+	color: #ffffff;
+	font-weight: bold;
+	margin-right: 5px;
+	margin-left: 5px;
+	cursor: pointer;
+	background-color: #DE3163;
+}
+.escolher-tamanho .esc-tamanho.ativo:hover {
+	background-color: #470981;
+	color: #fff;
+}
+.escolher-tamanho .esc-tamanho:hover {
+	background-color: #470981;
+	color: #fff;
+}
+.esc-tamanho.ativo {
+	color: #fff;
+	background-color: #470981;
+}
+.escolher-tamanho p {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.kit-oferta {
+	cursor: pointer;
+}
+.escolher-tamanho.link-tamanhoP, .escolher-tamanho.link-tamanhoM, .escolher-tamanho.link-tamanhoG, .escolher-tamanho.link-tamanhoGG {
+	display:none;
+}
+
