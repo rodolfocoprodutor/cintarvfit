@@ -229,10 +229,10 @@ button:disabled {
 }
 
 .s-video .container iframe {
-    width: 80rem;
-    max-width: 100%;
+    width: 100%;
+    max-width: 60rem;
     border-radius: .8rem;
-    max-height: 45rem;
+    max-height: fit-content;
 }
 
 /* depoimentos*/
