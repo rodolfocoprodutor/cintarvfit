@@ -403,6 +403,7 @@ button:disabled {
     max-width: 100%;
     gap: 1.6rem;
     justify-content: space-evenly;
+    padding-bottom: 1.6rem;
 }
 .mytabs input[type="radio"] {
     display: none;
@@ -498,4 +499,110 @@ button:disabled {
     width: 5px;
     background-color: var(--bg-gray2);
     -webkit-border-radius: 3px;
+}
+
+/* Sessão Perguntas frequentes*/
+.s-faq .container{
+    padding-top: 7.2rem;
+    padding-bottom: 7.2rem;
+}
+.s-faq h2{
+    color: var(--brand-color1);
+    text-align: center;
+}
+
+/*faq*/
+summary{
+    font-size: var(--subtitle);
+    font-weight: 600;
+    color: #fff;
+    padding: 2.4rem;
+    background-color: var(--brand-color1);
+    margin-bottom: .8rem;
+    border-radius: .8rem;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+summary:hover{
+    background-color: var(--brand-color2);
+    transition: background-color .3s;
+}
+summary:active{
+    background-color: var(--brand-color2);
+}
+details p{
+    padding: .6rem 2.4rem;
+}
+details p b{
+    font-size: inherit;
+}
+details[open] summary ~ *{
+    animation: sweep .5s ease-in-out;
+}
+@keyframes sweep {
+    from{
+        opacity: 0; margin-top: -10px;
+    }
+    to {
+        opacity: 1; margin-top: 0;
+    }
+}
+
+.s-faq .container h2{
+    line-height: 8rem;
+}
+.s-faq .container p{
+    padding-bottom: 2rem;
+}
+
+/*Footer*/
+footer{
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    background-color: var(--brand-color1);
+}
+footer .logo{
+    width: 25.6rem;
+    height: max-content;
+    margin: auto;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2.4rem;
+}
+footer nav ul{
+    width: 100%;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    margin-bottom: 2.4rem;
+}
+footer nav ul li a{
+    color: var(--attention-yellow);
+    font-weight: 600;
+    font-size: var(--body-text);
+}
+footer .container p a{
+    color: #fff;
+    font-weight: 600;
+    font-size: inherit;
+}
+
+footer .whatsapp svg{
+    display: block;
+    width: 6.4rem;
+    height: 6.4rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: var(--attention-green);
+    border-radius: 1.6rem;
+    padding: 1.2rem;
+}
+.icon-whatsapp_line{
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: #fff;
 }
