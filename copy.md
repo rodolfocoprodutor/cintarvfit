@@ -19,7 +19,7 @@ Me sinto satisfeita com o produto e fui muito bem atendida, reduzi medias em 2 s
 Obgda!
 
 Amanda: Eu amei o atendimento e a cinta estou usando a 4 dias e já sinto uma diferença incrível!
-Sem duvidas a melhor cinta que eu já usei e não abro mão de jeito nenhum *A MELHOR DE TODAS!*
+Sem duvidas a melhor cinta que eu já usei e não abro mão de jeito nenhum A MELHOR DE TODAS!
 
 <br>
 
