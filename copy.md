@@ -1,3 +1,28 @@
+## Sessão Benefícios
+
+<br>
+
+## Sessão Depoimentos
+### Será que funciona?
+**Pergunte para elas**
+Elaine: De todas as cintas que eu já usei não chegam aos pés dessa cinta maravilhosa
+Material de excelente qualidade, nunca tinha visto algo assim, estou apaixonada pela minha cinta Rvfit obrigadaaaaaa 
+
+Bruna Beatriz: Olá já recebi minha cinta e já estou amando
+Estou super animada e só agradeço pelo produto e por toda atenção que vocês tem me dado
+
+Marcileia Soares: Olá... Passando para agradecer pelo ótimo atendimento e dizer que estou amando a minha cinta, ela é ótima super confortável, tô amando minha postura rsrsrs... 
+
+Sandra Souza: Estou fazendo o uso da cinta da RVFIT em poucas semanas e já vejo os resultados.
+Me sinto satisfeita com o produto e fui muito bem atendida, reduzi medias em 2 semanas usando certinho!
+
+Obgda!
+
+Amanda: Eu amei o atendimento e a cinta estou usando a 4 dias e já sinto uma diferença incrível!
+Sem duvidas a melhor cinta que eu já usei e não abro mão de jeito nenhum *A MELHOR DE TODAS!*
+
+<br>
+
 ## Sessão Oferta
 plano 1 cinta
 PP: https://app.monetizze.com.br/checkout/DDL106640
@@ -37,9 +62,36 @@ GG + M:     https://app.monetizze.com.br/checkout/DXK106693
 GG + G:     https://app.monetizze.com.br/checkout/DPJ106694
 GG + GG:    https://app.monetizze.com.br/checkout/DNX106685
 
+<br>
 
+# Sessão de bônus
+## E tem mais!
+### Garantindo hoje mesmo a sua cinta modeladora da RVFit, você vai ganhar esses presentes incríveis!
 
-## Sessão de FAQ
+<br>
+
+### Ebook queima de gordura total de 24 horas
+Os segredos para dominar o seu metabolismo.
+De: R$ 29,90 Por: R$ 0,00
+
+<br>
+
+### Ebook 27 dicas para perder peso mais rapidamente
+De: R$ 29,90 Por: R$ 0,00
+
+<br>
+
+### Ebook dieta cetogênica 101
+Este é um livro que trata sobre **Dieta Cetogênica** como funciona, cardápio e receitas da dieta cetogênica.
+De: R$ 29,90 Por: R$ 0,00
+
+### Ebook 10 receitas lowcarb
+Ebook com 10 receitas exclusivas escrito pela: Drª Bruna Scalco.
+De: R$ 97,00 Por: R$ 0,00
+
+---
+
+# Sessão de FAQ
 Quantas horas por dia devo usar a cinta modeladora da rvfit?
 É recomendado utilizar a cinta por pelo menos 6 horas por dia, por um período mínimo de 3 meses.
 
