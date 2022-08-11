@@ -1,4 +1,4 @@
-## Sessão Benefícios
+# Sessão Benefícios
 
 <br>
 
@@ -22,6 +22,12 @@ Amanda: Eu amei o atendimento e a cinta estou usando a 4 dias e já sinto uma di
 Sem duvidas a melhor cinta que eu já usei e não abro mão de jeito nenhum A MELHOR DE TODAS!
 
 <br>
+
+# Sessão Famosas
+## Famosas que usam e recomendam
+### Nosso time de celebridades que usa e aprova a Cinta Modeladora RVFIT.
+
+
 
 ## Sessão Oferta
 plano 1 cinta

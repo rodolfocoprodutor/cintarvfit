@@ -455,9 +455,7 @@ button:disabled {
     height: 10px;
     -webkit-border-radius: 16px;
 }
-.mytabs .tab h2{
 
-}
 .mytabs input[type='radio']:checked + label + .tab{
     height: 5.6rem;
     flex-wrap: nowrap;
@@ -686,4 +684,78 @@ footer .whatsapp svg{
 }
 .subtitle{
     margin-bottom: 4rem;
+}
+
+/* Sessão Famosas*/
+.s-famosas .container {
+    place-items: center;
+    padding-top: 7.2rem;
+    padding-bottom: 7.2rem;
+    background-color: var(--brand-color2);
+}
+.s-famosas .container h2,
+.s-famosas .container h3,
+.s-famosas .container h4,
+.s-famosas .container p {
+    color: #ffffff;
+}
+.s-famosas .container .video-item img {
+    max-width: 25.6rem;
+    aspect-ratio: 1 / 1;
+    margin-bottom: 2.4rem;
+}
+
+.checkboxmodal{
+    display: none;
+}
+
+#modalexemplo:checked + .modal {
+    display: flex;
+}
+#modalexemplo:checked:not(:checked) iframe{
+    display: ;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9;
+    color: #fff;
+    font-size: x-large;
+}
+
+.modal .fecharmodal {
+    position: absolute;
+    top: 1.6rem;
+    right: 1.6rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    aspect-ratio: 1 / 1;
+    text-align: center;
+    border-radius: .4rem;
+    font-weight: 600;
+    background-color: red;
+}
+
+.modal .fecharmodal:hover{
+    cursor: pointer;    
+}
+
+.modal .conteudomodal{
+    width: 100%;
+    height: auto;
+    max-width: max-content;
+    max-height: max-content;
+    background-color: transparent;
+}
+.modal .conteudomodal iframe{
+    max-width: 90vw;
+    max-height: fit-content ;
 }
