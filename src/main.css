@@ -687,11 +687,14 @@ footer .whatsapp svg{
 }
 
 /* Sessão Famosas*/
+.s-famosas{
+    background-color: var(--brand-color2);
+}
 .s-famosas .container {
     place-items: center;
     padding-top: 7.2rem;
     padding-bottom: 7.2rem;
-    background-color: var(--brand-color2);
+    
 }
 .s-famosas .container h2,
 .s-famosas .container h3,
