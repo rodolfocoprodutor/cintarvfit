@@ -98,14 +98,14 @@ h4 {
     line-height: 140%;
 }
 
-p
-{
+p {
     font-size: var(--body-text);
     font-weight: 400;
     line-height: 2.8rem;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
 }
+
 p,
 li {
     font-size: var(--body-text);
@@ -399,6 +399,7 @@ button:disabled {
     border-radius: 1.7rem;
     background-color: var(--brand-color2);
 }
+
 .s-oferta .container .content-oferta .card_price_2 span {
     display: block;
     font-size: var(--body-text);
@@ -406,6 +407,7 @@ button:disabled {
     color: #FFFFFF;
     padding: 1.6rem 0;
 }
+
 /*Tabs*/
 .mytabs {
     display: flex;
@@ -415,9 +417,11 @@ button:disabled {
     justify-content: space-evenly;
     padding-bottom: 1.6rem;
 }
+
 .mytabs input[type="radio"] {
     display: none;
 }
+
 .mytabs label {
     display: block;
     text-align: center;
@@ -432,31 +436,35 @@ button:disabled {
     color: var(--brand-color1);
     cursor: pointer;
 }
+
 .mytabs label:hover {
     background-color: var(--attention-green);
     color: #fff;
 }
+
 .mytabs .tab {
-    
+
     width: 100%;
     order: 1;
     display: none;
 }
+
 .mytabs .tab h2 {
     font-size: 3em;
 }
 
-.mytabs input[type='radio']:checked + .tab {
+.mytabs input[type='radio']:checked+.tab {
     display: flex;
-    
+
 }
+
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
     -webkit-border-radius: 16px;
 }
 
-.mytabs input[type='radio']:checked + label + .tab{
+.mytabs input[type='radio']:checked+label+.tab {
     height: 5.6rem;
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -468,7 +476,8 @@ button:disabled {
     padding: 1.6rem;
     display: flex;
 }
-.mytabs input[type='radio']:checked + label + .tab::before{
+
+.mytabs input[type='radio']:checked+label+.tab::before {
     content: '2ª';
     color: #FFFFFF;
     display: block;
@@ -479,7 +488,8 @@ button:disabled {
     align-self: center;
 
 }
-.mytabs input[type='radio']:checked + label + .tab a{
+
+.mytabs input[type='radio']:checked+label+.tab a {
     display: block;
     text-align: center;
     line-height: 4rem;
@@ -492,6 +502,7 @@ button:disabled {
     background-color: #FFFFFF;
     color: var(--brand-color2);
 }
+
 ::-webkit-scrollbar-track-piece {
     background-color: var(--bg-gray);
     -webkit-border-radius: 3px;
@@ -510,19 +521,20 @@ button:disabled {
 }
 
 /* Sessão Perguntas frequentes*/
-.s-faq .container{
+.s-faq .container {
     padding-top: 7.2rem;
     padding-bottom: 7.2rem;
     max-width: 96rem;
 }
-.s-faq h2{
+
+.s-faq h2 {
     color: var(--brand-color1);
     text-align: center;
     margin-bottom: 4rem;
 }
 
 /*faq*/
-summary{
+summary {
     font-size: var(--subtitle-h4);
     font-weight: 600;
     color: #fff;
@@ -534,73 +546,87 @@ summary{
     transition: background-color .3s;
 }
 
-summary:hover{
+summary:hover {
     background-color: var(--brand-color2);
     transition: background-color .3s;
 }
-summary:active{
+
+summary:active {
     background-color: var(--brand-color2);
 }
-details p{
+
+details p {
     padding: .6rem 2.4rem;
 }
-details p b{
+
+details p b {
     font-size: inherit;
 }
-details[open] summary ~ *{
+
+details[open] summary~* {
     animation: sweep .5s ease-in-out;
 }
+
 @keyframes sweep {
-    from{
-        opacity: 0; margin-top: -10px;
+    from {
+        opacity: 0;
+        margin-top: -10px;
     }
+
     to {
-        opacity: 1; margin-top: 0;
+        opacity: 1;
+        margin-top: 0;
     }
 }
 
-.s-faq .container h2{
+.s-faq .container h2 {
     line-height: 8rem;
 }
-.s-faq .container p{
+
+.s-faq .container p {
     padding-bottom: 2rem;
 }
 
 /*Footer*/
-footer{
+footer {
     padding-top: 4rem;
     padding-bottom: 6rem;
     background-color: var(--brand-color1);
 }
-footer .logo{
+
+footer .logo {
     width: 25.6rem;
     height: max-content;
     margin: auto;
 }
-footer p{
+
+footer p {
     text-align: center;
     color: #fff;
     margin-bottom: 2.4rem;
 }
-footer nav ul{
+
+footer nav ul {
     width: 100%;
     display: flex;
     gap: 4rem;
     justify-content: center;
     margin-bottom: 2.4rem;
 }
-footer nav ul li a{
+
+footer nav ul li a {
     color: var(--attention-yellow);
     font-weight: 600;
     font-size: var(--body-text);
 }
-footer .container p a{
+
+footer .container p a {
     color: #fff;
     font-weight: 600;
     font-size: inherit;
 }
 
-footer .whatsapp svg{
+footer .whatsapp svg {
     display: block;
     width: 6.4rem;
     height: 6.4rem;
@@ -611,115 +637,132 @@ footer .whatsapp svg{
     border-radius: 1.6rem;
     padding: 1.2rem;
 }
-.icon-whatsapp_line{
+
+.icon-whatsapp_line {
     stroke-width: 0;
     stroke: currentColor;
     fill: #fff;
 }
 
 /* página de erro 404*/
-.s-404{
+.s-404 {
     display: grid;
     width: 100vw;
     height: 100vh;
     place-content: center;
 }
-.s-404 .container h2{
+
+.s-404 .container h2 {
     font-size: 15vw;
     text-align: center;
 }
-.s-404 .container h3{
+
+.s-404 .container h3 {
     text-align: center;
 }
-.s-404 .container a{
+
+.s-404 .container a {
     text-align: center;
 }
+
 /*página de politica */
-.s-btn .container{
-    margin: 3.2rem auto ;
+.s-btn .container {
+    margin: 3.2rem auto;
     place-content: center;
 }
 
 /* Página de obrigado */
-.s-banner-obrigado{
+.s-banner-obrigado {
     display: grid;
     padding-top: 6.4rem;
-    padding-bottom: 6.4rem;    
+    padding-bottom: 6.4rem;
     vertical-align: middle;
 }
-.s-banner-obrigado .container{
+
+.s-banner-obrigado .container {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     justify-content: center;
     align-items: center;
     gap: 4rem;
 }
-.s-banner-obrigado .content_congratulations h2{
+
+.s-banner-obrigado .content_congratulations h2 {
     font-size: clamp(4.5rem, 8vw, 6rem);
     text-transform: uppercase;
 
 }
-.s-banner-obrigado .content_congratulations h3{
+
+.s-banner-obrigado .content_congratulations h3 {
 
     font-weight: 500;
 }
-.s-banner-obrigado .content_congratulations p{
+
+.s-banner-obrigado .content_congratulations p {
 
     font-weight: 400;
 }
-.s-banner-obrigado .content_image{
+
+.s-banner-obrigado .content_image {
     display: grid;
     width: 100%;
     height: 100%;
     justify-content: center;
     align-items: flex-end;
 }
-.s-banner-obrigado .content_image img{
+
+.s-banner-obrigado .content_image img {
     max-height: 384px;
     object-fit: contain;
     max-width: max-content;
 }
-.s-obrigado .container a button{
-    margin: 3.2rem auto ;
+
+.s-obrigado .container a button {
+    margin: 3.2rem auto;
     place-items: center;
 }
-.subtitle{
+
+.subtitle {
     margin-bottom: 4rem;
 }
 
 /* Sessão Famosas*/
-.s-famosas{
+.s-famosas {
     background-color: var(--brand-color2);
 }
+
 .s-famosas .container {
     place-items: center;
     padding-top: 7.2rem;
     padding-bottom: 7.2rem;
-    
+
 }
+
 .s-famosas .container h2,
 .s-famosas .container h3,
 .s-famosas .container h4,
 .s-famosas .container p {
     color: #ffffff;
 }
+
 .s-famosas .container .video-item img {
     max-width: 25.6rem;
     aspect-ratio: 1 / 1;
     margin-bottom: 2.4rem;
 }
 
-.checkboxmodal{
+.checkboxmodal {
     display: none;
 }
 
-#modalexemplo:checked + .modal {
+#modalexemplo:checked+.modal {
     display: flex;
 }
-#modalexemplo:checked:not(:checked) iframe{
+
+#modalexemplo:checked:not(:checked) iframe {
     display: ;
 }
 
-.modal{
+.modal {
     display: none;
     position: fixed;
     justify-content: center;
@@ -747,18 +790,62 @@ footer .whatsapp svg{
     background-color: red;
 }
 
-.modal .fecharmodal:hover{
-    cursor: pointer;    
+.modal .fecharmodal:hover {
+    cursor: pointer;
 }
 
-.modal .conteudomodal{
+.modal .conteudomodal {
     width: 100%;
     height: auto;
     max-width: max-content;
     max-height: max-content;
     background-color: transparent;
 }
-.modal .conteudomodal iframe{
+
+.modal .conteudomodal iframe {
     max-width: 90vw;
-    max-height: fit-content ;
+    max-height: fit-content;
+}
+
+/* Página aviso*/
+section.s-aviso {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+
+}
+
+section.s-aviso .container a {
+    text-align: center;
+    margin-top: 5.6rem;
+}
+
+/* Download page */
+section.s-download {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: max-content;
+    place-content: center;
+    margin: auto;
+}
+section.s-download .container .icon-check-mark{
+    fill: var(--attention-green);
+}
+section.s-download h2,
+section.s-download a{
+    text-align: center;
+
+}
+section.s-download svg{
+    margin: auto;
+    width: 9.6rem;
+    height: 9.6rem;
+}
+section.s-download button{
+    background-color: var(--attention-green);
+}
+section.s-download button:hover{
+    box-shadow: none;
 }
